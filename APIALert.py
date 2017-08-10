@@ -44,13 +44,13 @@ def makeWebhookResult(req):
         #Pr = ''.join(Progr)
         # Ti = ''.join(tme)
         #Le = ''.join(Levp)
-    server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.starttls()
-    server.login("testapiblcu@gmail.com", "Testapi2017")
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+        server.login("testapiblcu@gmail.com", "Testapi2017")
 
-    msg = "A user with E-mail:. From:. Needs further Help from BLCU Online Bot ! Thanks"
-    server.sendmail("testapiblcu@gmail.com", "didierfrank504@gmail.com", msg)
-    server.quit()
+        msg = "A user with E-mail:. From:. Needs further Help from BLCU Online Bot ! Thanks"
+        server.sendmail("testapiblcu@gmail.com", "didierfrank504@gmail.com", msg)
+        server.quit()
 
 
 
