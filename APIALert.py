@@ -55,7 +55,7 @@ def makeWebhookResult(req):
 
 
 
-    speech = "Thank you for your interest and providing required info ;) Soon We will get in contact with you Otherwise you can contact us Directly to :=>WechatID: richyingjie  Or By E-mail Address:  admissions@blcuchinese.com"
+    speech = "Thank you for your interest and providing required info; Soon We will get in contact with you Otherwise you can contact us Directly to :=>WechatID: richyingjie  Or By E-mail Address:  admissions@blcuchinese.com"
 
 
     print("Response:")
