@@ -44,8 +44,8 @@ def makeWebhookResult(req):
         #Pr = ''.join(Progr)
         # Ti = ''.join(tme)
         #Le = ''.join(Levp)
-        #server = smtplib.SMTP('smtp.gmail.com', 587)
-        server = smtplib.SMTP_SSL('smtp.googlemail.com', 465)
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        #server = smtplib.SMTP_SSL('smtp.googlemail.com', 465)
         server.starttls()
         server.login("testapiblcu@gmail.com", "Testapi2017")
 
