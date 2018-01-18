@@ -49,7 +49,7 @@ def makeWebhookResult(req):
         server = smtplib.SMTP('smtp.gmail.com', 587)
         #server = smtplib.SMTP_SSL('smtp.googlemail.com', 465)
         server.starttls()
-        server.login("testapiblcu2017@gmail.com", "Testapi2017")
+        server.login("testapiblcu@gmail.com", "Testapi2017")
 
         msg = "A user need further help at BLCU online Bot -> his/her E-mail & his/her Country"+str(Addr) +str(Countr) 
         #+str(ContentM) 
