@@ -51,7 +51,7 @@ def makeWebhookResult(req):
         server.starttls()
         server.login("testapiblcu@gmail.com", "Testapi2017")
 
-        msg = "A user need further help at BLCU online Bot -> his/her E-mail & his/her Country"+str(Addr) +str(Countr) 
+        msg = "A user need further help at BLCU online Bot -> E-mail:"+str(Addr)+"Country:"+str(Countr) 
         #+str(ContentM) 
         server.sendmail("testapiblcu@gmail.com", "testapiblcu2017@gmail.com", msg)
         server.quit()
