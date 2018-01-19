@@ -41,6 +41,10 @@ def makeWebhookResult(req):
 
         Countr = parameters.get("geo-country")
         
+        GvenNam = parameters.get("given-name")
+        
+        LastNme = parameters.get("last-name")
+        
         #ContentM = parameters.get("any")
         #hw="Country:"
 
@@ -52,7 +56,7 @@ def makeWebhookResult(req):
         server.starttls()
         server.login("testapiblcu@gmail.com", "Testapi2017")
 
-        msg = "A user need further help at BLCU online Bot -> \nE-mail: " +str(Addr)+"\nCountry: "+str(Countr) 
+        msg = "A user need further help at BLCU online Bot -> \nGiven Name: "+str(GvenNam)+"\nLast Name: " +str(LastNme)+"\nE-mail: " +str(Addr)+"\nCountry: "+str(Countr)+"\nProgram Interest: Online \nStarting Date: Anytime" 
         #+str(ContentM) 
         server.sendmail("testapiblcu@gmail.com", "testapiblcu2017@gmail.com", msg)
         server.quit()
