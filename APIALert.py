@@ -43,10 +43,10 @@ def makeWebhookResult(req):
         Countr = parameters.get("geo-country")
         CountrB =''.join(Countr)
         
-        GvenNam = parameters.get("given-name")
+        GvenNam = parameters.get("Fname")
         GvenNamB =''.join(GvenNam)
         
-        LastName = parameters.get("last-name")
+        LastName = parameters.get("Lname")
         LastNameB = ''.join(LastName)
         
         #LastNme = parameters.get("last-name")
