@@ -64,7 +64,7 @@ def makeWebhookResult(req):
 
         msg = "A user need further help at BLCU online Bot -> \nGiven Name: "+str(GvenNamB)+" "+str(LastNameB) +"\nE-mail: " +str(AddrB)+"\nCountry: "+str(CountrB)+"\nProgram Interest: BLCUOnline \nStarting Date: Anytime" 
         #+str(ContentM) 
-        server.sendmail("testapiblcu@gmail.com", "testapiblcu2017@gmail.com", msg)
+        server.sendmail("testapiblcu@gmail.com", "richcoward@gmail.com", msg)
         server.quit()
 
 
