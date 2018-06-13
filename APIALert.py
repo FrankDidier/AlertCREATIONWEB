@@ -62,9 +62,9 @@ def makeWebhookResult(req):
         server.starttls()
         server.login("testapiblcu@gmail.com", "Testapi2017")
 
-        msg = "A user need further help at BLCU online Bot -> \nGiven Name: "+str(GvenNamB)+" "+str(LastNameB) +"\nE-mail: " +str(AddrB)+"\nCountry: "+str(CountrB)+"\nProgram Interest: BLCUOnline \nStarting Date: Anytime" 
+        msg = "A user need further help from student's counsellors, inquiry from BLCU online Bot -> \nGiven Name: "+str(GvenNamB)+" "+str(LastNameB) +"\nE-mail: " +str(AddrB)+"\nCountry: "+str(CountrB)+"\nProgram Interest: BLCUOnline \nStarting Date: Anytime" 
         #+str(ContentM) 
-        server.sendmail("testapiblcu@gmail.com", "richcoward@gmail.com", msg)
+        server.sendmail("testapiblcu@gmail.com", "AlertTestApi2018@gmail.com", msg)
         server.quit()
 
 
